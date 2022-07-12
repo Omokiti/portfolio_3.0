@@ -67,7 +67,7 @@ const [changeBcg, setChangeBcg] = useState(false);
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">
+                        <a className="nav-link" href="https://www.canva.com/design/DAD_DARdtWY/U9R-pYdjm_IkSxCf0MdsXQ/view?utm_content=DAD_DARdtWY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
                         Resumé
                         </a>
                       </li>
@@ -200,7 +200,7 @@ const [changeBcg, setChangeBcg] = useState(false);
           <div className="footer_container">
             <div className="footer_content">
             <p>Emamuzo Omokiti</p>
-            <a href="#aboutme" className="footernav"><span className="small_nav">About</span> </a> <a href="#" className="footernav"><span className="small_nav">Resumé</span></a>
+            <a href="#aboutme" className="footernav"><span className="small_nav">About</span> </a> <a href="https://www.canva.com/design/DAD_DARdtWY/U9R-pYdjm_IkSxCf0MdsXQ/view?utm_content=DAD_DARdtWY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className="footernav"><span className="small_nav">Resumé</span></a>
             <a href="#myportfolio" className="footernav"> <span className="small_nav">Projects</span> </a> <a href="https://emaomokiti.hashnode.dev/" className="footernav"><span className="small_nav">Blog</span> </a> <a href="#contactform" className="footernav"><span>Contact</span></a>
             </div>
             <div className="footer_socials">
