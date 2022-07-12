@@ -5,7 +5,7 @@ import { createContext, useState } from "react";
 import PortfolioSlider from "../components/PortfolioSlider";
 import ReactSwitch from "react-switch";
 import Form from "../components/Form";
-
+import Link from 'next/link'
 export const ThemeContext = createContext(null);
 export default function Home() {
 const [theme, setTheme] = useState("dark");
@@ -42,9 +42,9 @@ const [changeBcg, setChangeBcg] = useState(false);
             <div className="row">
               <nav className={`navbar navbar-expand-lg ${changeBcg ? 'active':""}`}>
                 <div className="container-fluid">
-                  <a className="navbar-brand" href="/">
-                    Emamuzo
-                  </a>
+                  <Link href="/">
+                    <a className="navbar-brand">Emamuzo</a>
+                  </Link>
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -171,7 +171,7 @@ const [changeBcg, setChangeBcg] = useState(false);
                 <div className="community">
                   <h5 className="technologies_header">Community</h5>
                   <span className="tech">Stutern</span>
-                  <span className="tech">She Code's Africa</span>
+                  <span className="tech">She Code&apos;s Africa</span>
                 </div>
               </div>
             </div>

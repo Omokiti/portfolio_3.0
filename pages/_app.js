@@ -23,7 +23,7 @@ useEffect(() => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
        </Head>
-       <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+       <Script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></Script>
       
      
       <Component {...pageProps} />

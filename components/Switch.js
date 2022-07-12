@@ -1,10 +1,11 @@
 
-import ReactSwitch from "react-switch";
+// import ReactSwitch from "react-switch";
 export default function Switch(){
     
   return(
     <div>
-      <ReactSwitch
+      hello
+      {/* <ReactSwitch
       
         className="switch"
         onColor="#86d3ff"
@@ -18,7 +19,7 @@ export default function Switch(){
           width={48}
            className="react-switch"
          id="material-switch"
-                        />
+                        /> */}
     </div>
   )
     

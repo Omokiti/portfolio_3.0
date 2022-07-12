@@ -526,7 +526,7 @@ right:-1.3rem;
     font-size:10.67vw;
     line-height:10.67vw;
     margin-left:10px;
-    color: #CBA135;
+    color: #EF767A!important;
 
   }
   #dark .space{
@@ -814,7 +814,7 @@ right:-1.3rem;
     padding-top:6px;
   }
   #light .navbar-brand {
-    color: #CBA135;
+    color: #EF767A;
     font-size: 1.25vw;
     line-height: 150%;
     margin: 5px 5px;
@@ -890,6 +890,8 @@ padding-right: 10vw;
   padding-top: 5.125vw;
   background: #FDF6F0;
   height: 53.125vw;
+  padding-left:10vw;
+  padding-right:10vw;
 }
 #light .aboutme_box {
   display: grid;
@@ -1327,13 +1329,21 @@ padding-right: 10vw;
     font-family: 'Questrial', sans-serif;
   }
   #dark .navbar-brand{
-   color: #CBA135 !important;
+   color: #EF767A!important;
    font-size: 1.25vw;
    line-height: 150%;
    margin: 5px 5px;
    font-family: 'Special Elite', cursive;
    padding-left: 8vw;
    }
+   #dark .link{
+    color: #EF767A!important;
+    font-size: 1.25vw;
+    line-height: 150%;
+    margin: 5px 5px;
+    font-family: 'Special Elite', cursive;
+    padding-left: 8vw;
+    }
   #dark .introduction{
     font-style: normal;
     font-weight: 400;
@@ -1389,7 +1399,8 @@ padding-right: 10vw;
     padding-top:5.125vw;
     background: #1B1D2B;
     height: 53.125vw;
-
+    padding-left: 10vw;
+    padding-right:10vw;
   }
   #dark .portfolio {
     padding-top: 10.125vw;
