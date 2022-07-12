@@ -1,0 +1,1765 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+/* small screen */
+@media screen and (max-width: 601px) {
+
+  body {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  #light {
+    background-color: #FFFFFF;
+    width: 100%;
+   }
+  #light .navbar-toggler {
+  background:#000000;
+  }
+  #light .navbar-brand {
+    font-size: 10.67vw;
+    line-height: 10.67vw;
+    margin-left: 10px;
+    color: #CBA135;
+}
+  #light .nav-link {
+    font-family: 'Questrial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.4vw;
+    line-height: 6.67vw;
+    color: #0C0C0B;
+}
+#light .header {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.67vw;
+  line-height: 13.06vw;
+  color: rgba(122, 1, 54, 0.5);
+}
+#light .introduction {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.38vw;
+  line-height: 9.06vw;
+  color:#404040;
+  font-family: 'Questrial', sans-serif;
+}
+#light .intro {
+  color:#7A0136;
+  font-size: 8.67vw;
+  font-weight: 400;
+  line-height: 13.06vw;
+  font-family: 'Nib Pro', serif;
+}
+#light .myworks_btn {
+  width: 70vw;
+  height: 14.4vw;
+  background: #000000;
+  border-radius: 1.067vw;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 6.4vw;
+  line-height: 8vw;
+  font-family: 'Sora', sans-serif;
+  margin-top: 6.4vw;
+  padding-top: 2.667vw;
+  text-align: center;
+  text-decoration: none;
+}
+#light .my_image {
+  width: 89.33vw;
+  margin-left: -9.6vw;
+}
+#light .aboutme_header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.67vw;
+  line-height: 14.13vw;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+}
+#light .aboutme_info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.33vw;
+  line-height: 5.73vw;
+  color:#404040;
+  font-family: 'Questrial', sans-serif;
+}
+#light .aboutme {
+  background: #FDF6F0;
+  padding-top: 21.33vw;
+  padding-left: 18vw;
+  padding-right:10vw ;
+}
+#light .space {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+#light .technologies_box {
+  width: 78.93vw;
+  height: 90.67vw;
+  background: #FFFFFF;
+  border: 1px solid #7A0136;
+  border-radius: 8px;
+  padding-left: 7.4vw;
+  padding-top: 7.4vw;
+  margin-top: 7.4vw;
+}
+#light .hobbies {
+  width: 78.93vw;
+  height: 77.86vw;
+  background: #FFFFFF;
+  border: 1px solid #7A0136;
+  border-radius: 0.55vw;
+  padding-left: 7.4vw;
+  padding-top: 7.4vw;
+  margin-top:5.33vw;
+}
+#light .community {
+  width: 78.93vw;
+  height: 52.26vw;
+  background: #FFFFFF;
+  border: 1px solid #7A0136;
+  border-radius: 0.55vw;
+  padding-left: 7.4vw;
+  padding-top: 7.4vw;
+  margin-bottom: 5.33vw;
+}
+#light .subheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.67vw;
+  line-height: 14.13vw;
+  color:#000000;
+  font-family: 'Playfair Display', serif;
+  padding-top:13.33vw;
+}
+#light .tech {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.33vw;
+  line-height: 12.8vw;
+  color:#404040;
+  font-family: 'Questrial', sans-serif;
+}
+#light .carousel_header {
+  color:rgba(122, 1, 54, 0.5);
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+#light .myemail {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.53vw;
+  line-height: 10.4vw;
+  color: rgba(122, 1, 54, 0.5);
+  padding-top: 25.46vw;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+#light .contactme {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.67vw;
+  line-height: 21.33vw;
+  font-family: 'Shippori Mincho', serif;
+}
+#light .email_content {
+  /* width: 146.93vw; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.33vw;
+  line-height: 9.06vw;
+  font-family: 'Questrial', sans-serif;
+  color: #404040;
+}
+#light .label {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.73vw;
+  line-height: 4.53vw;
+  font-family: 'Fira Sans', sans-serif;
+  opacity: 0.6;
+}
+#light .input {
+  background: #FFFFFF;
+  border: 1px solid #DDE2E5;
+  box-shadow: 0px 4px 10px 3px rgb(255 255 255 / 11%);
+  border-radius: 4px;
+  color: #000000;
+  padding: 0.9375vw 0.9375vw;
+  margin: 8px 0;
+  display: inline-block;
+}
+#light .email {
+  padding: 0.9375vw 0.9375vw;
+  margin: 8px 0;
+  background: #FFFFFF;
+  border: 1px solid #DDE2E5;
+  box-shadow: 0px 4px 10px 3px rgb(255 255 255 / 11%);
+  border-radius: 4px;
+  color: #000000;
+}
+#light .message {
+  height: 66.67vw;
+  padding: 0.9375vw 0.9375vw;
+  margin: 8px 0;
+  background: #FFFFFF;
+  border: 1px solid #DDE2E5;
+  box-shadow: 0px 4px 10px 3px rgb(255 255 255 / 11%);
+  border-radius: 4px;
+  color: #000000;
+}
+#light .submit_button {
+  height: 14.4vw;
+  background:#000000;
+  border-radius: 4px;
+  color:#FFFFFF;
+  margin-top: 6.4vw;
+  margin-bottom: 26.67vw;
+  font-family: 'Sora', sans-serif;
+  font-size: 6.4vw;
+}
+#light .footer {
+  font-size: 4.8vw;
+  background: #F4E9E3;
+  padding-top: 5.93vw;
+  height: 51.2vw;
+  color:#7A0136;
+  font-family: 'Playfair Display', serif;
+}
+#light .footer_container {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0;
+}
+#light .footernav {
+  color:#7A0136;
+  text-decoration: none;
+}
+
+#light .ch_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:5.33vw;
+}
+  #light .slider {
+    padding: 10.667vw 8vw;
+  }
+  #light .carousels {
+    display: flex;
+    overflow-y: auto;
+    cursor: grab;
+  }
+  #light .carousels::-webkit-scrollbar {
+    background: #e0e0e0;
+    height: 12px;
+    cursor: pointer;
+    color: #e0e0e0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:rgba(122, 1, 54, 0.5);
+    width: 30%;
+  }
+  #light .carousel_container {
+    margin-bottom: 50px;
+  }
+  #light .carousel_container:not(:last-child) {
+    margin-right: 0;
+  }
+  #light .controlcontainer {
+    position: relative;
+  }
+  #light .carousel_btn {
+    display: none;
+    background: none;
+    border: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -0.22rem;
+  }
+
+ #light.right_button{
+right:-1.3rem;
+}
+#light .image {
+    width: 157.33vw;
+    height: 66.67vw;
+  }
+ 
+  #light .myform {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+  
+  #light .description {
+    color: #000000;
+    margin-top: 1.25vw;
+    text-decoration: none;
+  }
+  #light .footer_container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 0;
+}
+#light .small_nav {
+  display: inline-block;
+  margin-right: 6.4vw;
+}
+ label {
+  font-size: 3vw;
+  margin-bottom: 1.33vw;
+  }
+  #light .response_modal{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top:35.5700001vw;
+    -webkit-transform: translate(-50%,-100%);
+    transform: translate(-50%,-100%);
+    background: #fff;
+    border: 0.5px solid #bdbdbd;
+    box-shadow: 4px 4px 12pxrgba(0,0,0,.12);
+    position: absolute;
+    z-index: 99;
+    border-radius: 1.5625vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  #light .close_button{
+    width: 6.5625vw;
+    position: absolute;
+    right:4vw;
+    top: 2.45vw;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border: none;
+    background-color: transparent;
+    outline: none;
+   }
+   #light .overlay {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: 9;
+}
+#light .form_message{
+  color:#EF767A;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 400;
+   font-size: 4vw;
+   text-align: center;
+ }
+ 
+ 
+ 
+ 
+ 
+  /* dark theme mobile */
+  #dark {
+    background-color: #000000;
+    width: 100%;
+   }
+  #dark .intro{
+    color: #fff;
+    font-size: 8.67vw;
+    font-weight: 400;
+    line-height:13.06vw;
+    font-family: 'Nib Pro', serif;
+  }
+  #dark .introduction{
+    font-style: normal;
+    font-weight: 400;
+    font-size:5.38vw;
+    line-height:9.06vw;
+    color: #EFEFEF;
+    font-family: 'Questrial', sans-serif;
+    
+  }
+  #dark .navbar-toggler {
+    background:#EF767A;
+    ;
+  }
+  #dark a {
+    color: #fff;
+    text-decoration: none;
+  }
+  #dark .nav-link {
+  font-family: 'Questrial';
+  font-style: normal;
+  font-weight: 400;
+  font-size:6.4vw;
+  line-height:6.67vw;
+  color: #FFFFFF;
+  }
+  #dark li {
+    color: #fff;
+  }
+  #dark .header {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size:8.67vw;
+    line-height:13.06vw;
+    color: rgba(239, 118, 122, 0.5);
+  }
+  #dark .aboutme_header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.67vw;
+    line-height:14.13vw;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+  }
+  #dark .headercontain{
+    background: #1E1E1E;
+    padding-top:5.33vw;
+  }
+  #dark .aboutme_info {
+   font-style: normal;
+    font-weight: 400;
+    font-size: 5.33vw;
+    line-height:5.73vw;
+    color: #EFEFEF;
+    font-family: 'Questrial', sans-serif;
+  }
+
+   #dark .technologies_box {
+    width: 78.93vw;
+    height: 90.67vw;
+    background: #0C0005;
+    border-radius: 8px;
+    padding-left: 7.4vw;
+    padding-top: 7.4vw;
+    margin-top: 7.4vw;
+  }
+
+  #dark .technologies_header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.46vw;
+    line-height: 7.46vw;
+    color: #EF767A;
+    font-family: 'Special Elite', cursive;
+  }
+
+  #dark .tech {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.33vw;
+    line-height:12.8vw;
+    color: #EFEFEF;
+    font-family: 'Questrial', sans-serif;
+  }
+ #dark .hobbies {
+    width: 78.93vw;
+    height: 77.86vw;
+    background: #0C0005;
+    border-radius: 0.55vw;
+    padding-left: 7.4vw;
+    padding-top: 7.4vw;
+   }
+   #dark .community {
+    width: 78.93vw;
+    height: 52.26vw;
+    background: #0C0005;
+    border-radius: 0.55vw;
+    padding-left: 7.4vw;
+    padding-top: 7.4vw;
+}
+ #dark .myworks_btn {
+    width:70vw;
+    height:14.4vw;
+    background: #EF767A;
+    border-radius:1.067vw;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6.4vw;
+    line-height:8vw;
+    font-family: 'Sora', sans-serif;
+    margin-top:6.4vw;
+    padding-top:2.667vw;
+    text-align: center;
+  }
+  #dark .myworks_btn:hover {
+    color: #fff;
+    text-decoration: none !important;
+  }
+  #dark .navbar-brand {
+    font-size:10.67vw;
+    line-height:10.67vw;
+    margin-left:10px;
+    color: #CBA135;
+
+  }
+  #dark .space{
+  padding-left: 8vw;
+  padding-right: 8vw;
+  }
+  #dark .my_image {
+    width: 89.33vw;
+    margin-left: -9.6vw;
+  }
+  /* #dark .info {
+    padding-left: 3vw;
+    padding-top: 2vw;
+  } */
+  #dark .aboutme {
+    background: #1B1D2B;
+    padding-top: 21.33vw;
+    padding-left: 18vw;
+    padding-right:10vw ;
+    
+  }
+  #dark .portfolio {
+    padding-top: 26.67vw;
+  }
+  #dark .subheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.67vw;
+    line-height:14.13vw;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+  }
+  #dark .carousel_header {
+    color: #EF767A;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+#dark .description {
+  color: #fff;
+  margin-top: 2.25vw;
+  text-decoration: none;
+  margin-left: 1.39vw;
+}
+#dark .myemail {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.53vw;
+  line-height: 10.4vw;
+  color: rgba(239, 118, 122, 0.5);
+  padding-top:25.46vw;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+#dark .contactme {
+  font-style: normal;
+  font-weight: 400;
+  font-size:10.67vw;
+  line-height:21.33vw;
+  font-family: 'Shippori Mincho', serif;
+}
+#dark .contact_me {
+  color: #FFFFFF;
+}
+#dark .email_content {
+  /* width:146.93vw; */
+  font-style: normal;
+  font-weight: 400;
+  font-size:5.33vw;
+  line-height:9.06vw;
+  font-family: 'Questrial', sans-serif;
+  color: #EFEFEF;
+}
+#dark .label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.73vw;
+  line-height:4.53vw;
+  font-family: 'Fira Sans', sans-serif;
+  opacity: 0.6;
+}
+#dark .input {
+  background: #FFFFFF;
+  border: 1px solid #DDE2E5;
+  box-shadow: 0px 4px 10px 3px rgb(255 255 255 / 11%);
+  border-radius: 4px;
+  color: #000000;
+  padding: 0.9375vw 0.9375vw;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+#dark .email {
+  padding: 0.9375vw 0.9375vw;
+  margin: 8px 0;
+  background: #FFFFFF;
+  border: 1px solid #DDE2E5;
+  box-shadow: 0px 4px 10px 3px rgb(255 255 255 / 11%);
+  border-radius: 4px;
+  color: #000000;
+}
+#dark .message {
+  height:66.67vw;
+  padding: 0.9375vw 0.9375vw;
+  margin: 8px 0;
+  background: #FFFFFF;
+  border: 1px solid #DDE2E5;
+  box-shadow: 0px 4px 10px 3px rgb(255 255 255 / 11%);
+  border-radius: 4px;
+  color: #000000;
+}
+#dark .submit_button {
+  height:14.4vw;
+  background: #EF767A;
+  border-radius: 4px;
+  color: #000000;
+  margin-top:6.4vw;
+  margin-bottom:26.67vw;
+  font-family: 'Sora', sans-serif;
+  font-size: 6.4vw;
+}
+#dark .footer {
+  font-size:4.8vw;
+  background: #1B1D2B;
+  padding-top:5.93vw;
+  height:51.2vw;
+  color: #EF767A;
+  font-family: 'Playfair Display', serif;
+}
+#dark .footer_container {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0;
+}
+#dark .small_nav {
+  display: inline-block;
+  margin-right:6.4vw;
+}
+#dark .footernav {
+  color: #EF767A;
+  text-decoration: none;
+}
+  #dark .content {
+    font-weight: 700;
+    font-size: 4.8vw;
+    line-height: 150%;
+  }
+  #dark .slider {
+    padding: 10.667vw 8vw;
+  }
+  #dark .carousels {
+    display: flex;
+    overflow-y: auto;
+    cursor: grab;
+  }
+  #dark .carousels::-webkit-scrollbar {
+    background: #e0e0e0;
+    height: 12px;
+    cursor: pointer;
+    color: #e0e0e0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:#EF767A;
+    width: 30%;
+  }
+  #dark .carousel_container {
+    margin-bottom: 50px;
+  }
+  #dark .carousel_container:not(:last-child) {
+    margin-right: 0;
+  }
+  #dark .controlcontainer {
+    position: relative;
+  }
+  #dark .carousel_btn {
+    display: none;
+    background: none;
+    border: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -0.22rem;
+  }
+  /* #dark .left_button{
+  left: -1.3rem;
+} */
+#dark.right_button{
+right:-1.3rem;
+}
+  #dark .image {
+    width: 157.33vw;
+    height: 66.67vw;
+  }
+  #dark .description {
+    color: #fff;
+    margin-top: 2.25vw;
+    text-decoration: none;
+    font-size: 4.8vw;
+  }
+  #dark .myform {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+ 
+  #dark .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+  }
+  
+  label {
+    font-size: 3vw;
+    margin-bottom: 1.33vw;
+  }
+  #dark .response_modal{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top:35.5700001vw;
+    -webkit-transform: translate(-50%,-100%);
+    transform: translate(-50%,-100%);
+    background: #fff;
+    border: 0.5px solid #bdbdbd;
+    box-shadow: 4px 4px 12pxrgba(0,0,0,.12);
+    position: absolute;
+    z-index: 99;
+    border-radius: 1.5625vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  #dark .close_button{
+    width: 6.5625vw;
+    position: absolute;
+    right:4vw;
+    top: 2.45vw;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border: none;
+    background-color: transparent;
+    outline: none;
+   }
+   #dark .overlay {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: 9;
+}
+#dark .form_message{
+  color:#EF767A;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 400;
+   font-size: 4vw;
+   text-align: center;
+ }
+}
+
+
+
+
+
+
+@media screen and (min-width: 602px) {
+  /* light theme */
+  #light {
+    background-color: #ffffff;
+    width: 100%;
+    position: relative;
+  }
+  #light .navz{
+    padding-top:6px;
+  }
+  #light .navbar-brand {
+    color: #CBA135;
+    font-size: 1.25vw;
+    line-height: 150%;
+    margin: 5px 5px;
+    font-family: 'Special Elite', cursive;
+    padding-left:11vw;
+    
+}
+#light .active{
+  background: #F4E9E3;
+  position: fixed;
+  transition: all .3s ease-in-out;
+  width:100vw;
+}
+/* #light .line{
+ border: 0.5px solid #000000;
+} */
+  #light .header {
+  color: rgba(122, 1, 54, 0.5);
+   font-size: 2.78vw;
+   font-family: 'Helvetica Neue', sans-serif;
+   }
+
+  #light .intro {
+    color:#7A0136;
+    font-size: 6.94vw;
+    font-weight: 400;
+    line-height: 8.33vw;
+    font-family: 'Nib Pro', serif;
+  }
+  /* #light .name {
+  display: inline-grid;
+  } */
+  #light .introduction {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.388vw;
+    line-height: 2.3611vw;
+    color:#404040;
+    width: 38.26vw;
+    padding-top:1vw;
+  }
+  #light .myworks_btn {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background: #000000;
+    border-radius: 0.277vw;
+    color: #FFFFFF;
+    padding-left: 13.15vw;
+    padding-top: 0.833vw;
+    font-size: 1.75vw;
+    text-decoration: none !important;
+    width: 34.72vw;
+    height: 3.75vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.66vw;
+    line-height: 2.083vw;
+    font-family: 'Sora', sans-serif;
+}
+#light .nav-link {
+  color: #0C0C0B;
+  font-size: 1.25vw;
+  line-height: 150%;
+  margin: 5px 5px;
+  font-family: 'Questrial', sans-serif;
+}
+#light .space{
+padding-left: 10vw;
+padding-right: 10vw;
+}
+#light .aboutme {
+  padding-top: 5.125vw;
+  background: #FDF6F0;
+  height: 53.125vw;
+}
+#light .aboutme_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 48px;
+  gap: 48px;
+}
+#light .aboutme_header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.77vw;
+  line-height: 3.68vw;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+}
+#light .ch_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#light .aboutme_info {
+  width: 32.5vw;
+  height: 36.67vw;
+  font-family: 'Questrial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.389vw;
+  line-height: 3.05vw;
+  color:#404040;
+  font-family: 'Questrial', sans-serif;
+}
+#light .technologies_box {
+  width: 20.55vw;
+  height: 23.611vw;
+  background: #FFFFFF;
+  border: 1px solid #7A0136;
+  border-radius: 8px;
+  padding-left: 1.94vw;
+  padding-top: 1.94vw;
+  margin-top: 10.41vw;
+}
+#light .technologies_header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.94vw;
+  line-height: 1.94vw;
+  color: #EF767A;
+  font-family: 'Special Elite', cursive;
+}
+#light .tech {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.388vw;
+  line-height: 3.33vw;
+  color: #404040;
+  font-family: 'Questrial', sans-serif;
+}
+#light .hobbies {
+  width: 20.55vw;
+  height: 20.27vw;
+  background: #FFFFFF;
+  border: 1px solid #7A0136;
+  border-radius: 0.55vw;
+  padding-left: 1.94vw;
+  padding-top: 1.94vw;
+}
+#light .community {
+  width: 20.55vw;
+  height: 13.611vw;
+  background: #FFFFFF;
+  border: 1px solid #7A0136;
+  border-radius: 0.55vw;
+  padding-left: 1.94vw;
+  padding-top: 1.94vw;
+}
+#light .react-switch-handle{
+  height: 16px!important;
+  width: 16.33px!important;
+}
+#light .react-switch-bg{
+  width: 47.98px!important;
+  height: 16.33px!important;
+}
+#light .subheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.77VW;
+  line-height: 3.68vw;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+}
+#light .contact_me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#light .contactme {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.56vw;
+  line-height: 5.56vw;
+  font-family: 'Shippori Mincho', serif;
+  color: #7A0136;
+}
+#light .myemail {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.22vw;
+  line-height: 2.70vw;
+  color: rgba(239, 118, 122, 0.5);
+  padding-top: 11.59vw;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+#light .email_content {
+  width: 38.26vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.388vw;
+  line-height: 2.36vw;
+  font-family: 'Questrial', sans-serif;
+  color: #404040;
+}
+
+#light .label {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.972vw;
+  line-height: 1.180vw;
+  font-family: 'Fira Sans', sans-serif;
+  opacity: 0.6;
+  color: #000000;
+}
+#light .input {
+  background: #FFFFFF;
+  border: 1px solid #DDE2E5;
+  box-shadow: 0px 4px 10px 3px rgb(255 255 255 / 11%);
+  border-radius: 4px;
+  width: 39.58vw;
+  color: #000000;
+  padding: 0.9375vw 0.9375vw;
+  margin: 8px 0;
+  display: inline-block;
+}
+#light .email {
+  width: 39.58vw;
+  padding: 0.9375vw 0.9375vw;
+  margin: 8px 0;
+  background: #FFFFFF;
+  border: 1px solid #DDE2E5;
+  box-shadow: 0px 4px 10px 3px rgb(255 255 255 / 11%);
+  border-radius: 4px;
+  color: #000000;
+}
+#light .message {
+  width: 39.58vw;
+  height: 200px;
+  padding: 0.9375vw 0.9375vw;
+  margin: 8px 0;
+  background: #FFFFFF;
+  border: 1px solid #DDE2E5;
+  box-shadow: 0px 4px 10px 3px rgb(255 255 255 / 11%);
+  border-radius: 4px;
+  color: #000000;
+}
+#light .submit_button {
+  width: 39.58vw;
+  height: 3.90625vw;
+  background: #000000;
+  border-radius: 4px;
+  color: #FFFFFF;
+  margin-top: 1.67vw;
+  margin-bottom: 6.944vw;
+  font-family: 'Sora', sans-serif;
+}
+#light .footer {
+  font-size: 1.25vw;
+  background: #F4E9E3;
+  color: #fff;
+  padding-top: 3.89vw;
+  height: 192px;
+  color:#7A0136;
+  font-family: 'Playfair Display', serif;
+}
+#light .footer_container {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0;
+}
+#light .myname {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2.083vw;
+}
+#light .small_nav {
+  display: inline-block;
+  margin-right: 1.67vw;
+}
+#light .footernav {
+  color: #EF767A;
+  text-decoration: none;
+}
+#light .contactme {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.56vw;
+  line-height: 5.56vw;
+  font-family: 'Shippori Mincho', serif;
+  color: #7A0136;
+
+}
+ 
+  #light .portfolio {
+    padding-top: 10.125vw;
+  }
+  
+ 
+  #light .subheadercolor {
+    color: #000000;
+    ;
+  }
+  #light .switch {
+    margin-top: 1.399vw;
+  }
+  #light .headercontain {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-bottom:5.5vw;
+    padding-top: 5.125vw;
+  }
+  #light .my_image{
+  height: 40.069vw;
+  margin-top:-2.944vw;
+  }
+  #light .react-switch {
+    margin-top: 0.78125vw;
+  }
+  #light .info {
+    padding-left: 3vw;
+    padding-top: 4.125vw;
+  }
+
+  #light .profilepic {
+    width: 80%;
+  }
+  #light .myportfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 3vw;
+    padding-top: 6.125vw;
+  }
+
+  #light .myportfolios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 3vw;
+    padding-top: 6.125vw;
+  }
+
+  #light .cards {
+    position: relative;
+  }
+
+  #light .image {
+    width: 53.9vw;
+    height: 300px;
+   
+  }
+   #light .text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: white;
+    font-size: 30px;
+  }
+  
+  #light .blob {
+    position: absolute;
+    left: 0;
+    width: 24.34vw;
+  }
+  #light .slider {
+    padding: 40px 50px;
+  }
+
+  #light .carousel_container {
+    margin-bottom: 50px;
+  }
+
+  #light .carousel_container:not(:last-child) {
+    margin-right: 70px;
+  }
+
+  #light .carousels {
+    display: flex;
+    overflow-y: auto;
+    cursor: grab;
+  }
+  #light .carousels::-webkit-scrollbar {
+    background: #e0e0e0;
+    height: 12px;
+    cursor: pointer;
+    color: #e0e0e0;
+  }
+  #light ::-webkit-scrollbar-thumb {
+    background:#EF767A;
+    width: 30%;
+  }
+  #light .carousel_btn {
+    display: none;
+  }
+  #light .description {
+    color: #000000;
+    margin-top: 2.25vw;
+    text-decoration: none;
+  }
+ 
+  #light .input::-moz-focus-outer {
+    color:#EF767A;
+  }
+  #light .myform {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+   #light .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #light .form_message{
+    color:#EF767A;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 400;
+     font-size: 2vw;
+     text-align: center;
+   }
+   #light .overlay{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: 9;
+    
+    }
+    #light .response_modal{
+      position: absolute;
+      top:40%;
+      left: 50%;
+      width: 400px;
+      height: 400px;
+      margin-top:35.5700001vw;
+      -webkit-transform: translate(-50%,-100%);
+      transform: translate(-50%,-100%);
+      background: #fff;
+      border: 0.5px solid #bdbdbd;
+      box-shadow: 4px 4px 12pxrgba(0,0,0,.12);
+      position: absolute;
+      z-index: 99;
+      border-radius: 1.5625vw;
+      display: grid;
+      grid-template-columns: 1fr;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    #light .close_button{
+      width: 3.5625vw;
+      position: absolute;
+      right: 2vw;
+      top: 2.45vw;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+      border: none;
+      background-color: transparent;
+      outline: none;
+     }
+    
+ 
+  /* dark theme */
+  #dark {
+    background-color: #000000;
+    width: 100%;
+    position: relative;
+    
+  }
+
+  #dark .header {
+    color: rgba(239, 118, 122, 0.5);
+    font-size: 2.78vw;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+
+  #dark .intro {
+    color: #fff;
+    font-size: 6.94vw;
+    font-weight: 400;
+    line-height:8.33vw;
+    font-family: 'Nib Pro', serif;
+  }
+  /* #dark .name {
+  display: inline-grid;
+  } */
+
+  #dark .mysurname {
+    color: #ffffff;
+  }
+  #dark li {
+    color: #fff;
+    font-size: 1.5625vw;
+    margin: 5px 5px;
+  }
+  #dark .navz{
+    padding-top:6px;
+  }
+  #dark .react-switch-handle{
+    height: 16px!important;
+    width: 16.33px!important;
+  }
+  #dark .react-switch-bg{
+    width:47.98px!important;
+    height: 16.33px!important;
+  }
+  #dark .nav-link{
+    color: #fff;
+    font-size: 1.25vw;
+    line-height: 150%;
+    margin: 5px 5px;
+    font-family: 'Questrial', sans-serif;
+  }
+  #dark .navbar-brand{
+   color: #CBA135 !important;
+   font-size: 1.25vw;
+   line-height: 150%;
+   margin: 5px 5px;
+   font-family: 'Special Elite', cursive;
+   padding-left: 8vw;
+   }
+  #dark .introduction{
+    font-style: normal;
+    font-weight: 400;
+    font-size:1.388vw;
+    line-height:2.3611vw;
+    color: #EFEFEF;
+    width:38.26vw;
+    font-family: 'Questrial', sans-serif;
+    padding-top:1vw;
+    
+  }
+  #dark .active{
+    background:#1B1D2B;
+    position: fixed;
+    transition: all .3s ease-in-out;
+    
+  }
+  #dark a:hover {
+    color: #EF767A;
+    ;
+  }
+  #dark li:hover {
+    color: #EF767A;
+  }
+  #dark .second_pic {
+    margin-left: -10px;
+  }
+
+  #dark .myworks_btn {
+    -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+    background: #EF767A;
+    border-radius:0.277vw;
+    color: #000000;
+    padding-left:13.15vw;
+    padding-top:0.833vw;
+    font-size: 1.75vw;
+    text-decoration: none !important;
+    width:34.72vw;
+    height:3.75vw ;
+    font-style: normal;
+   font-weight: 600;
+   font-size: 1.66vw;
+   line-height:2.083vw;
+   font-family: 'Sora', sans-serif;
+  }
+  #dark .myworks_btn:hover {
+    color: #fff;
+    text-decoration: none !important;
+  }
+  #dark .aboutme {
+    padding-top:5.125vw;
+    background: #1B1D2B;
+    height: 53.125vw;
+
+  }
+  #dark .portfolio {
+    padding-top: 10.125vw;
+   
+  }
+  #dark .content {
+    padding-top: 1.125vw;
+    font-size: 1.5625vw;
+    line-height: 2.96vw;
+    letter-spacing: -0.027vw;
+    color: #fff;
+    width: 100%;
+    padding-right: 11.875vw;
+  }
+  #dark .subheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.77VW;
+    line-height:3.68vw;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+  }
+  #dark .subheadercolor {
+    color: #fff;
+  }
+
+  #dark .aboutme_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:48px;
+  }
+  #dark .aboutme_info{
+    width:32.5vw;
+    height:36.67vw;
+    font-family: 'Questrial';
+    font-style: normal;
+    font-weight: 400;
+    font-size:1.389vw;
+    line-height:3.05vw;
+    color:#EFEFEF;
+    font-family: 'Questrial', sans-serif;
+   
+  }
+  #dark .technologies_box{
+    width: 20.55vw;
+    height:23.611vw;
+    background: #0C0005;
+    border-radius: 8px;
+    padding-left:1.94vw;
+    padding-top:1.94vw;
+    margin-top: 10.41vw;
+  }
+  #dark .hobbies{
+    width: 20.55vw;
+    height: 20.27vw;
+    background: #0C0005;
+    border-radius:0.55vw;
+    padding-left:1.94vw;
+    padding-top:1.94vw;
+  }
+  #dark .community{
+    width: 20.55vw;
+    height:13.611vw;
+    background: #0C0005;
+    border-radius:0.55vw;
+    padding-left:1.94vw;
+    padding-top:1.94vw;
+  }
+  #dark .ch_box{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  }
+  #dark .technologies_header{
+    font-style: normal;
+    font-weight: 400;
+    font-size:1.94vw;
+    line-height:1.94vw;
+    color: #EF767A;
+    font-family: 'Special Elite', cursive;
+  }
+  #dark .tech{
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size:1.388vw;
+    line-height:3.33vw;
+    color: #EFEFEF;
+    font-family: 'Questrial', sans-serif;
+   }
+   #dark .aboutme_header{
+    font-style: normal;
+    font-weight: 400;
+    font-size:2.77vw;
+    line-height:3.68vw;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+   }
+   #dark .image_container{
+   border:24px solid #1B1D2B;
+   }
+   #dark .contact_me{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   color:#FFFFFF;
+   }
+  #dark .switch {
+    margin-top: 1.399vw;
+  }
+  #dark .myemail{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size:2.22vw;
+    line-height:2.70vw;
+    color: rgba(239, 118, 122, 0.5);
+    padding-top:11.59vw;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  #dark .email_content{
+   width:38.26vw;
+   font-style: normal;
+   font-weight: 400;
+   font-size:1.388vw;
+   line-height:2.36vw;
+   font-family: 'Questrial', sans-serif;
+   color: #EFEFEF;
+  }
+  #dark .infoemail{
+   padding-left:1010  
+   ;
+  }
+  #dark .headercontain {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-bottom:5.5vw;
+    padding-top: 5.125vw;
+  }
+  #dark .react-switch {
+    margin-top: 0.78125vw;
+    margin-right:3.611vw;
+  }
+ #dark .my_image{
+  height:40.069vw;
+  margin-top:-2.944vw;
+ }
+  #dark .profilepic {
+    width: 80%;
+  }
+  #dark .myportfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 3vw;
+    padding-top: 6.125vw;
+  }
+
+  #dark .myportfolios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 3vw;
+    padding-top: 6.125vw;
+  }
+
+  #dark .cards {
+    position: relative;
+  }
+
+  #dark .image {
+    width:41.80vw;
+    height:26.33vw;
+   
+  }
+
+  #dark .slider {
+  padding-left: 10.41vw;
+  padding-right: 10.41vw;
+  }
+
+  #dark .carousel_container {
+    margin-bottom: 50px;
+  }
+ #dark .carousel_header{
+  color: #EF767A;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+ }
+  #dark .carousel_container:not(:last-child) {
+    margin-right: 70px;
+  }
+
+  #dark .carousels {
+    display: flex;
+    overflow-y: auto;
+    cursor: grab;
+  }
+  #dark .carousels::-webkit-scrollbar {
+    background: #e0e0e0;
+    height: 12px;
+    cursor: pointer;
+    color: #e0e0e0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:#667E91;
+    width: 30%;
+  }
+  #dark .carousel_btn {
+    display: none;
+  }
+  #dark .description {
+    color: #fff;
+    margin-top: 2.25vw;
+    text-decoration: none;
+    margin-left:1.39vw;
+  }
+  #dark .contactme{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.56vw;
+    line-height:5.56vw;
+    font-family: 'Shippori Mincho', serif;
+  }
+  #dark .input {
+    background: #FFFFFF;
+    border: 1px solid #DDE2E5;
+    box-shadow: 0px 4px 10px 3px rgba(255, 255, 255, 0.11);
+    border-radius: 4px;
+    width: 39.58vw;
+    color:#000000;
+    padding: 0.9375vw 0.9375vw;
+    margin: 8px 0;
+    display: inline-block;
+  }
+  #dark .input,.email,.message::focus {
+    outline:none !important;
+    border:1px solid #EF767A;
+  }
+  #dark .label{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size:0.972vw;
+    line-height: 1.180vw;
+    font-family: 'Fira Sans', sans-serif;
+    opacity: 0.6;
+  }
+  #dark .myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:5.6vw;
+  }
+  #dark .email {
+    width:39.58vw;
+    padding: 0.9375vw 0.9375vw;
+    margin: 8px 0;
+    background: #FFFFFF;
+    border: 1px solid #DDE2E5;
+    box-shadow: 0px 4px 10px 3px rgba(255, 255, 255, 0.11);
+    border-radius: 4px;
+    color:#000000;
+  }
+
+  #dark .message {
+    width:39.58vw;
+    height: 200px;
+    padding: 0.9375vw 0.9375vw;
+    margin: 8px 0;
+    background: #FFFFFF;
+    border: 1px solid #DDE2E5;
+    box-shadow: 0px 4px 10px 3px rgba(255, 255, 255, 0.11);
+    border-radius: 4px;
+    color:#000000;
+  }
+  #dark .submit_button {
+    width:39.58vw;
+    height: 3.90625vw;
+    background: #EF767A;
+    border-radius: 4px;
+    color: #000000;
+    margin-top:1.67vw;
+    margin-bottom:6.944vw;
+    font-family: 'Sora', sans-serif;
+  }
+  #dark .overlay{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.6);
+  z-index: 9;
+  
+  }
+  #dark .response_modal{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top:35.5700001vw;
+    -webkit-transform: translate(-50%,-100%);
+    transform: translate(-50%,-100%);
+    background: #fff;
+    border: 0.5px solid #bdbdbd;
+    box-shadow: 4px 4px 12pxrgba(0,0,0,.12);
+    position: absolute;
+    z-index: 99;
+    border-radius: 1.5625vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  #dark .close_button{
+    width: 3.5625vw;
+    position: absolute;
+    right: 2vw;
+    top: 2.45vw;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border: none;
+    background-color: transparent;
+    outline: none;
+   }
+  
+  #dark .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #dark .footer{
+  font-size:1.25vw;
+   background: #1B1D2B;
+    color: #fff;
+    padding-top:3.89vw;
+    height:192px;
+   color:#EF767A;
+   font-family: 'Playfair Display', serif;
+  }
+  #dark .footer_container{
+  display: flex;
+  justify-content: space-between;
+  flex:1 0;
+  }
+  #dark .small_nav{
+  display:inline-block;
+  margin-right: 1.67vw;
+  color: #EF767A;
+  }
+  #dark .footernav{
+    color:#EF767A;
+    text-decoration: none;
+  }
+  #dark .space{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  }
+  #dark .myname{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 2.083vw;
+  }
+  #dark .form_message{
+   color:#EF767A;
+   font-family: 'Shippori Mincho', serif;
+   font-weight: 400;
+    font-size: 2vw;
+    text-align: center;
+  }
+}
