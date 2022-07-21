@@ -1,19 +1,17 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  overflow-y: auto;
+ overflow-y: auto;
   overflow-x: hidden;
   box-sizing: border-box;
 }
 /* small screen */
 @media screen and (max-width: 601px) {
 
-  body {
+  /* body {
     overflow-y: auto;
     overflow-x: hidden;
-  }
+  } */
   
   #light {
     background-color: #FFFFFF;
@@ -63,7 +61,7 @@ body {
   width: 70vw;
   height: 14.4vw;
   background: #000000;
-  border-radius: 1.067vw;
+  border-radius:4px;
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -74,9 +72,10 @@ body {
   line-height: 8vw;
   font-family: 'Sora', sans-serif;
   margin-top: 6.4vw;
-  padding-top: 2.667vw;
+  padding-top: 3.667vw;
   text-align: center;
   text-decoration: none;
+  border:none;
 }
 #light .my_image {
   width: 89.33vw;
@@ -101,8 +100,8 @@ body {
 #light .aboutme {
   background: #FDF6F0;
   padding-top: 21.33vw;
-  padding-left: 18vw;
-  padding-right:10vw ;
+  padding-left: 8vw;
+  padding-right:8vw;
 }
 #light .space {
   padding-left: 8vw;
@@ -410,7 +409,7 @@ right:-1.3rem;
   }
   #dark .navbar-toggler {
     background:#EF767A;
-    ;
+    
   }
   #dark a {
     color: #fff;
@@ -444,7 +443,7 @@ right:-1.3rem;
     font-family: 'Playfair Display', serif;
   }
   #dark .headercontain{
-    background: #1E1E1E;
+    
     padding-top:5.33vw;
   }
   #dark .aboutme_info {
@@ -504,7 +503,7 @@ right:-1.3rem;
     width:70vw;
     height:14.4vw;
     background: #EF767A;
-    border-radius:1.067vw;
+    border-radius:4px;
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -515,8 +514,9 @@ right:-1.3rem;
     line-height:8vw;
     font-family: 'Sora', sans-serif;
     margin-top:6.4vw;
-    padding-top:2.667vw;
+    padding-top:3.667vw;
     text-align: center;
+    border:none;
   }
   #dark .myworks_btn:hover {
     color: #fff;
@@ -526,7 +526,7 @@ right:-1.3rem;
     font-size:10.67vw;
     line-height:10.67vw;
     margin-left:10px;
-    color: #EF767A!important;
+    color:#CBA135 !important;
 
   }
   #dark .space{
@@ -537,15 +537,13 @@ right:-1.3rem;
     width: 89.33vw;
     margin-left: -9.6vw;
   }
-  /* #dark .info {
-    padding-left: 3vw;
-    padding-top: 2vw;
-  } */
+  
   #dark .aboutme {
     background: #1B1D2B;
     padding-top: 21.33vw;
-    padding-left: 18vw;
-    padding-right:10vw ;
+    padding-left: 8vw;
+    padding-right:8vw;
+
     
   }
   #dark .portfolio {
@@ -594,7 +592,6 @@ right:-1.3rem;
   color: #FFFFFF;
 }
 #dark .email_content {
-  /* width:146.93vw; */
   font-style: normal;
   font-weight: 400;
   font-size:5.33vw;
@@ -649,6 +646,7 @@ right:-1.3rem;
   margin-bottom:26.67vw;
   font-family: 'Sora', sans-serif;
   font-size: 6.4vw;
+  border:none;
 }
 #dark .footer {
   font-size:4.8vw;
@@ -715,9 +713,7 @@ right:-1.3rem;
     position: absolute;
     bottom: -0.22rem;
   }
-  /* #dark .left_button{
-  left: -1.3rem;
-} */
+ 
 #dark.right_button{
 right:-1.3rem;
 }
@@ -814,7 +810,7 @@ right:-1.3rem;
     padding-top:6px;
   }
   #light .navbar-brand {
-    color: #EF767A;
+    color:#CBA135;
     font-size: 1.25vw;
     line-height: 150%;
     margin: 5px 5px;
@@ -828,9 +824,7 @@ right:-1.3rem;
   transition: all .3s ease-in-out;
   width:100vw;
 }
-/* #light .line{
- border: 0.5px solid #000000;
-} */
+
   #light .header {
   color: rgba(122, 1, 54, 0.5);
    font-size: 2.78vw;
@@ -844,9 +838,7 @@ right:-1.3rem;
     line-height: 8.33vw;
     font-family: 'Nib Pro', serif;
   }
-  /* #light .name {
-  display: inline-grid;
-  } */
+ 
   #light .introduction {
     font-style: normal;
     font-weight: 400;
@@ -1329,7 +1321,7 @@ padding-right: 10vw;
     font-family: 'Questrial', sans-serif;
   }
   #dark .navbar-brand{
-   color: #EF767A!important;
+   color:#CBA135!important;
    font-size: 1.25vw;
    line-height: 150%;
    margin: 5px 5px;
