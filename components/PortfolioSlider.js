@@ -23,7 +23,7 @@ export default function PortfolioSlider() {
           })
       }
   }
-  const portfolioImageOne = "/images/kolomoni.png";
+  const portfolioImageOne = "/recipez.png";
   const portfolioImageTwo = "/capital sage.png";
   const portfolioImageThree = "/fit-min.png";
   const portfolioImageFour = "/dict-min.png";
@@ -32,9 +32,9 @@ export default function PortfolioSlider() {
   const PortfolioData = [
     {
       id: 1,
-      portfolioHeader: "Kolomoni",
+      portfolioHeader: "Recipez",
       portfolioImage: portfolioImageOne,
-      portfolioDescription:<a href="https://omokiti.github.io/kolomoni-web/" className="description">Fin-tech website</a>,
+      portfolioDescription:<a href="https://recipez-zeta.vercel.app/" className="description">Recipe app</a>,
     },
     {
       id: 2,

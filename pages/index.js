@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { createContext, useState } from "react";
-import Intercom from '@intercom/messenger-js-sdk';
 import PortfolioSlider from "../components/PortfolioSlider";
 import ReactSwitch from "react-switch";
 import Form from "../components/Form";
@@ -27,13 +26,7 @@ const [changeBcg, setChangeBcg] = useState(false);
    }
  
   const currentYear= new Date().getFullYear();
-  Intercom({
-    app_id: 'befoprcf',
-    user_id: user.id, // IMPORTANT: Replace "user.id" with the variable you use to capture the user's ID
-    name: user.name, // IMPORTANT: Replace "user.name" with the variable you use to capture the user's name
-    email: user.email, // IMPORTANT: Replace "user.email" with the variable you use to capture the user's email
-    created_at: user.createdAt, // IMPORTANT: Replace "user.createdAt" with the variable you use to capture the user's sign-up date in a Unix timestamp (in seconds) e.g. 1704067200
-  });
+
 
   return (
     <>
@@ -50,8 +43,8 @@ const [changeBcg, setChangeBcg] = useState(false);
             <div className="row">
               <nav className={`navbar navbar-expand-lg ${changeBcg ? 'active':""}`}>
                 <div className="container-fluid">
-                  <Link href="/">
-                    <a className="navbar-brand">Emamuzo</a>
+                  <Link href="/" className="navbar-brand">
+                    Emamuzo
                   </Link>
                   <button
                     className="navbar-toggler"
@@ -75,7 +68,7 @@ const [changeBcg, setChangeBcg] = useState(false);
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="https://www.canva.com/design/DAD_DARdtWY/U9R-pYdjm_IkSxCf0MdsXQ/view?utm_content=DAD_DARdtWY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                        <a className="nav-link" href="https://www.canva.com/design/DAD_DARdtWY/UYVqFAguPSoZxRtIQzOBEQ/edit?utm_content=DAD_DARdtWY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
                         Resumé
                         </a>
                       </li>
@@ -128,7 +121,7 @@ const [changeBcg, setChangeBcg] = useState(false);
                 {theme ==="dark" ? <img src="/line.svg" alt="line"/> : theme === "light"?<img src="/Lines.svg" alt="line"/>:null}
                  {/* <img src="/line.svg" alt="line"className="line"/> */}
                 {/* <img src="/line 793.svg" alt="line"className="line"/> */}
-                <p className="introduction">A creative developer who enjoys creating beautiful user-interface
+                <p className="introduction">A creative developer focused on building user-friendly interfaces
                  using the right technologies.
                  </p>
                 <a className="myworks_btn" href="#myportfolio">
@@ -149,7 +142,7 @@ const [changeBcg, setChangeBcg] = useState(false);
               <div>
                 {/* <Animation/> */}
                 <h2 className="aboutme_header">About Me</h2>
-                <p className="aboutme_info">I am a creative Front-end developer based in Lagos, Nigeria.
+                <p className="aboutme_info">I am a creative frontend developer based in Lagos, Nigeria.
                   I got interested in tech after randomly attending a tech workshop for ladies during National Youth Service Corp Year.
                   I practiced on free code camp for a while then attended the Stutern Garduate Acceleratoe programme. 
                    this programme I fully transitioned from being an Agroeconomist to tech. 
@@ -161,9 +154,9 @@ const [changeBcg, setChangeBcg] = useState(false);
               <h5 className="technologies_header">Technologies</h5>
               <span className="tech">Html 5</span>
               <span className="tech">CSS3</span>
-              <span className="tech"> Sass</span>
               <span className="tech">Javascript</span>
               <span className="tech">React</span>
+              <span className="tech">Node js</span>
               
             </div>
                
