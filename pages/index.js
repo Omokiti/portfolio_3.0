@@ -115,13 +115,13 @@ const [changeBcg, setChangeBcg] = useState(false);
               <div className="info">
                 <h2 className="header ">/EmamuzoːOmokiti/</h2>
                 <p className="intro">
-                Frontend Developer
+                Software Engineer
                   
                 </p>
                 {theme ==="dark" ? <img src="/line.svg" alt="line"/> : theme === "light"?<img src="/Lines.svg" alt="line"/>:null}
                  {/* <img src="/line.svg" alt="line"className="line"/> */}
                 {/* <img src="/line 793.svg" alt="line"className="line"/> */}
-                <p className="introduction">A creative developer focused on building user-friendly interfaces
+                <p className="introduction">A creative developer focused on building user-friendly interfaces and APIs
                  using the right technologies.
                  </p>
                 <a className="myworks_btn" href="#myportfolio">
@@ -142,7 +142,7 @@ const [changeBcg, setChangeBcg] = useState(false);
               <div>
                 {/* <Animation/> */}
                 <h2 className="aboutme_header">About Me</h2>
-                <p className="aboutme_info">I am a creative frontend developer based in Lagos, Nigeria.
+                <p className="aboutme_info">I am a creative Software Engineer based in Lagos, Nigeria.
                   I got interested in tech after randomly attending a tech workshop for ladies during National Youth Service Corp Year.
                   I practiced on free code camp for a while then attended the Stutern Garduate Acceleratoe programme. 
                    this programme I fully transitioned from being an Agroeconomist to tech. 
