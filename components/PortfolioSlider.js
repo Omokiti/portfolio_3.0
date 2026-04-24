@@ -26,8 +26,7 @@ export default function PortfolioSlider() {
   const portfolioImageOne = "/recipez.png";
   const portfolioImageTwo = "/capital sage.png";
   const portfolioImageThree = "/fit-min.png";
-  const portfolioImageFour = "/dict-min.png";
-  const porftfolioImageFive = "/nb-min.png";
+  const portfolioImageFour = "/dictz.png";
   const porftfolioImageSix ='/sage.png';
   const PortfolioData = [
     {
@@ -52,20 +51,16 @@ export default function PortfolioSlider() {
       id: 4,
       portfolioHeader: "Dictz",
       portfolioImage: portfolioImageFour,
-      portfolioDescription:  <a href="https://dictz.netlify.app/" className="description">Dictionary app</a>,
+      portfolioDescription:  <a href="https://omokiti.github.io/dictz/" className="description">Dictionary app</a>,
     },
+   
     {
-      id: 5,
-      portfolioHeader: "Nba-stat",
-      portfolioImage: porftfolioImageFive,
-      portfolioDescription: <a href="https://nbastat.netlify.app/" className="description">Nba app</a>,
-    },
-    {
-     id:6,
+     id: 5,
      portfolioHeader:"Sage",
      portfolioImage:porftfolioImageSix,
-     portfolioDescription: <a href="https://sagecloud.ng/" className="description">Sage website</a>,
+     portfolioDescription: <a href="https://omokiti.github.io/sagecloud/" className="description">Sage Landing Page</a>,
     }
+    
   ];
   return (
       <>

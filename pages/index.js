@@ -68,7 +68,7 @@ const [changeBcg, setChangeBcg] = useState(false);
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="https://www.canva.com/design/DAD_DARdtWY/UYVqFAguPSoZxRtIQzOBEQ/edit?utm_content=DAD_DARdtWY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                        <a className="nav-link" href="https://canva.link/t180k2vgz3z6ktx">
                         Resumé
                         </a>
                       </li>
@@ -115,7 +115,7 @@ const [changeBcg, setChangeBcg] = useState(false);
               <div className="info">
                 <h2 className="header ">/EmamuzoːOmokiti/</h2>
                 <p className="intro">
-                Software Engineer
+                Frontend Developer
                   
                 </p>
                 {theme ==="dark" ? <img src="/line.svg" alt="line"/> : theme === "light"?<img src="/Lines.svg" alt="line"/>:null}
